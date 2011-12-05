@@ -1,0 +1,7 @@
+cliente : mainCliente.o
+	g++ -o exe mainCliente.o
+mainCliente.o: mainCliente.cpp
+	g++ -Wall -c mainCliente.cpp
+clean:
+	rm exe mainCliente.o
+

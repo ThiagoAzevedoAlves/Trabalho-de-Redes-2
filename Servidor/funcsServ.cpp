@@ -4,6 +4,8 @@
 #include <fstream>
 #include "funcsServ.h"
 
+using namespace std;
+
 int existe(char* pedido_char){
 	ifstream lista; //arquivo que verifica se existe o arquivo na lista de arquivos para baixar;
 	char arquivo[50]; //string que percorre a lista de arquivo guardando os nomes;
