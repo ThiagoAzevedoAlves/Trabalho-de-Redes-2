@@ -1,0 +1,9 @@
+arquivos
+exe
+lista.txt
+mainServ.cpp
+mainServ.o
+makefile
+makefile~
+MAKEFILE~
+README
