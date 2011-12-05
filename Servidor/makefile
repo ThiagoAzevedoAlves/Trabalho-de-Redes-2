@@ -1,9 +1,7 @@
-exe : mainServ.o funcsServ.o
-	g++ -o exe mainServ.o funcsServ.o
-mainServ.o: mainServ.cpp funcsServ.h
+servidor : mainServ.o
+	g++ -o servidor mainServ.o
+mainServ.o: mainServ.cpp
 	g++ -Wall -c mainServ.cpp
-funcsServ.o : funcsServ.cpp funcsServ.h
-	g++ -Wall -c funcsServ.cpp
 clean:
-	rm exe mainServ.o funcsServ.o
+	rm servidor mainServ.o
 

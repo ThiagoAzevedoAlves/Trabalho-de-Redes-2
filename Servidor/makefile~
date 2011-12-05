@@ -1,0 +1,7 @@
+exe : mainServ.o
+	g++ -o exe mainServ.o
+mainServ.o: mainServ.cpp
+	g++ -Wall -c mainServ.cpp
+clean:
+	rm exe mainServ.o
+
