@@ -1,4 +1,1 @@
-Trabalho para a Disciplina de Redes de Computadores 1
-Professor Maurício Lima Pilla
-
-Autor: Thiago Azevedo Alves.
+TESTEANDO O ENVIO DE MENSAGEM
